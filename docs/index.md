@@ -68,7 +68,7 @@ That's it! All set now.
 
 We're highly interested in your opinion on the project! To contribute please, either fork it and submit a pull request, or contact us via Twitter or email.
 
-_Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Nicolas Dintzner_ [@NJRDintzner](https://twitter.com/njrdintzner), Jason R. Wang_ [@jasonrwang](https://twitter.com/jasonrwang) and _Trivik Verma_ [@TrivikV](https://twitter.com/TrivikV), _Bartel Van de Walle_ [@bvdwalle](https://twitter.com/bvdwalle).
+_Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Nicolas Dintzner_ [@NJRDintzner](https://twitter.com/njrdintzner), _Jason R. Wang_ [@jasonrwang](https://twitter.com/jasonrwang), _Trivik Verma_ [@TrivikV](https://twitter.com/TrivikV).
 
 ## License
 
