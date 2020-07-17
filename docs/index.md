@@ -5,17 +5,13 @@
 
 REproDucible ComputAtional Research is a project that aims to help students and researchers to make their computational results more easily **understandable**, **reproducible** and **accessible to others**.
 
-TL;DR
-
-Everything conneted into a system.
-
 <p align="center">
   <img src="img/figure-1.png">
 </p>
 
 ## Background
 
-Big data, powerful computers, and programming languages such as Python and R brought quantitative research to a whole new level. Now you can apply a machine learning algorithm to train a car or a drone to become automated with 2 lines of code \([proof](https://github.com/mikhailsirenko/REDCAR/blob/master/.gitbook/assets/ml.jpg)\).
+Big data, powerful computers, and programming languages such as Python and R brought quantitative research to a whole new level. Now you can apply a machine learning algorithm to train a car or a drone to become automated with 2 lines of code.
 
 Along with the opportunities, such a technological leap brought complications. Scientists became overwhelmed with all details that should be taken into account while conducting a computational study. Given the pressure from the deadlines, they are forced to **decide between "quick-and-dirty"** **and reproducible research**, not in favor of the latter. Manual corrections of the raw data, conflicting versions of software packages, lack of instructions on how the code should be executed, making it hard if not impossible to reproduce results of a computational study. As a result, more and more scholars have started to highlight the importance of **reproducibility**, propose ways to achieve it and pose it **as a minimum standard** **for assessing the value of scientific claims** \[[1](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285),[2](https://science.sciencemag.org/content/334/6060/1226)\].
 
@@ -37,7 +33,7 @@ If you want to share the results of your computational research, there may be no
 
 ‌We linked all these 3 components into a system and supervised them with tools and practices. They are distributed across 3 workshops and can be found in the directories with corresponding names. By following the workshops in a sequential manner, you will ensure that your research a\). reproducible, b\). more easily understandable, c\). accessible to others.
 
-```text
+<!-- ```text
 ├── 1-reproducible
 │   ├── 1.1-get-started-anaconda.md   <- Create virtual environment and example project structure
 │   ├── 1.2-get-started-git.md        <- Learn the basics of Git and GitHub 
@@ -52,11 +48,11 @@ If you want to share the results of your computational research, there may be no
 │   ├── 3.1-setup-binder.md           <- Make MyBinder.org work with your repo 
 │   ├── 3.2-colaboratory.md           <- Try Google Colab as an alternative 
 │   ├── 3.3-aws-s3.md                 <- Store your large data set on AWS servers
-```
+``` -->
 
 To get the maximum of the project we invite you to come and participate in the hands-on exercises. But if didn't work, get hands dirty with tutorials by yourself 💪. We tried to make them as clear possible so they can serve as cheat sheets as well. Forgot something: just open the book and follow the instructions.
 
-## To be prepared
+<!-- ## To be prepared
 
 To participate in the workshops you will need a laptop and a couple of tools installed. The preparation process will take less than 30 minutes.
 
@@ -66,7 +62,7 @@ To participate in the workshops you will need a laptop and a couple of tools ins
 
 {% hint style="success" %}
 That's it! All set now.
-{% endhint %}
+{% endhint %} -->
 
 ## Contributing & authors
 
@@ -82,7 +78,7 @@ _Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Nicola
 
 While working on this project the REDCAR project team was inspired by Cookiecutter Data Science \[[6](https://drivendata.github.io/cookiecutter-data-science/)\] made by _friendly folks at DrivenData_ , Reproducible Research module of Data Science Specialization \[[7](https://www.coursera.org/specializations/jhu-data-science)\] by _Jeff Leek_, _Roger D. Peng_ and _Brian Caffo_.
 
-We also would like to thank _Jan Kwakkel_, _Igor Nikolic, Alexander Verbraeck_ for their input into the shaping of the project.
+We also would like to thank _Jan Kwakkel_, _Igor Nikolic, Alexander Verbraeck_ and _Bartel Van de Walle_ for their input into the shaping of the project.
 
 ## References
 
@@ -91,6 +87,6 @@ We also would like to thank _Jan Kwakkel_, _Igor Nikolic, Alexander Verbraeck_ f
 3. Goodman SN, Fanelli D, Ioannidis JP. What does research reproducibility mean?. Science translational medicine. 2016 Jun 1;8\(341\):341ps12-.
 4. Stodden V. Reproducible research: Tools and strategies for scientific computing. Computing in Science & Engineering. 2012 Jul;14\(4\):11-2.
 5. Stodden V, Leisch F, Peng RD, editors. Implementing reproducible research. CRC Press; 2014 Apr 14.
-6. DrivenData. Cookiecutter Data Science. Available from [https://drivendata.github.io/cookiecutter-data-science/](https://drivendata.github.io/cookiecutter-data-science/) \[Accessed 03 March 2020\].
-7. Coursera Inc. Data Science Specialization. Available from [https://www.coursera.org/specializations/jhu-data-science](https://www.coursera.org/specializations/jhu-data-science) \[Accessed 03 March 2020\] 
+6. DrivenData. Cookiecutter Data Science. Available from [https://drivendata.github.io/cookiecutter-data-science/](https://drivendata.github.io/cookiecutter-data-science/).
+7. Coursera Inc. Data Science Specialization. Available from [https://www.coursera.org/specializations/jhu-data-science](https://www.coursera.org/specializations/jhu-data-science)
 
