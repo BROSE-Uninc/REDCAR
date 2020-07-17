@@ -11,7 +11,7 @@ REproDucible ComputAtional Research is a project that aims to help students and 
 
 ## Background
 
-Big data, powerful computers, and programming languages such as Python and R brought quantitative research to a whole new level. Now you can apply a machine learning algorithm to train a car or a drone to become automated with 2 lines of code.
+Big data, powerful computers, and programming languages such as Python and R brought quantitative research to a whole new level. Now you can apply a machine learning algorithm to train a car or a drone to become automated with 2 lines of code ([proof]()).
 
 Along with the opportunities, such a technological leap brought complications. Scientists became overwhelmed with all details that should be taken into account while conducting a computational study. Given the pressure from the deadlines, they are forced to **decide between "quick-and-dirty"** **and reproducible research**, not in favor of the latter. Manual corrections of the raw data, conflicting versions of software packages, lack of instructions on how the code should be executed, making it hard if not impossible to reproduce results of a computational study. As a result, more and more scholars have started to highlight the importance of **reproducibility**, propose ways to achieve it and pose it **as a minimum standard** **for assessing the value of scientific claims** \[[1](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285),[2](https://science.sciencemag.org/content/334/6060/1226)\].
 
@@ -21,17 +21,17 @@ But what do we mean by reproducible? In this project we will use definition intr
 
 We won't talk about [_empirical_](https://www.nature.com/news/announcement-reducing-our-irreproducibility-1.12852) or [_statistical_](https://science.sciencemag.org/content/343/6168/229) reproducibility but instead [_computational reproducibility_](https://web.stanford.edu/~vcs/talks/Census2017-STODDEN.pdf) \[[4](https://aip.scitation.org/doi/abs/10.1109/MCSE.2012.82?journalCode=csx)\].
 
-Alright. Now you understand what reproducibility is and what it's important. But what are the ways to ensure it? In short, you need to follow the rules described in \[[1](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)\], and use the tools and practices that were developed for that \(see, e.g., \[[5](https://books.google.nl/books?hl=en&lr=&id=JcmSAwAAQBAJ&oi=fnd&pg=PP1&dq=implementing+reproducible+research&ots=ym1btRtPJE&sig=tR2_-mmsrsZUwXwEHXYIrYz_HT4&redir_esc=y#v=onepage&q=implementing%20reproducible%20research&f=false)\]\). But in the REDCAR project, you'll find a bit more than that.
+Alright. Now you understand what reproducibility is in this project and why it's important. But what are the ways to ensure it? In short, you need to follow the rules described in \[[1](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)\], and use the tools and practices that were developed for that \(see, e.g., \[[5](https://books.google.nl/books?hl=en&lr=&id=JcmSAwAAQBAJ&oi=fnd&pg=PP1&dq=implementing+reproducible+research&ots=ym1btRtPJE&sig=tR2_-mmsrsZUwXwEHXYIrYz_HT4&redir_esc=y#v=onepage&q=implementing%20reproducible%20research&f=false)\]\). But in the REDCAR project, you'll find a bit more than that.
 
 ## REDCAR
 
-With the REDCAR project, we're aimed at achieving more than reproducibility 😎. We realize how important is the **structure** of the study, **code formatting**, and whether it's **easily accessible** by other researchers or the general public. We translated these additional principles into 2 extra components: understandable and shared \(see Figure on top\).
+With the REDCAR project, we're aimed at achieving more than just reproducibility 😎. We realize how important is the **structure** of the study, **code formatting**, and whether it's **easily accessible** by other researchers or general public. We translated these additional principles into 2 extra components: understandable and shared \(see Figure on top\).
 
-Understandable here stands for how easily others can figure out that you have done. For example, if your project folder looks like [this](https://github.com/mikhailsirenko/REDCAR/blob/master/.gitbook/assets/folder-mess.png), then "Houston, we have a problem." The same holds for the code. It's much easier to reuse and modify a program that was written in compliance with coding standards. You met two variables `d = 5` and `elapsed_time_in_days = 5`. Which one is better?
+Understandable here stands for how easily others can figure out that you have done. For example, if your project folder looks like [this](), then "Houston, we have a problem." The same holds for the code. It's much easier to reuse and modify a program that was written in compliance with coding standards. You met two variables `d = 5` and `elapsed_time_in_days = 5`. Which one is better?
 
-If you want to share the results of your computational research, there may be no need to install Anaconda Distribution or NetLogo. Instead, you can use such instruments as [Binder Project](https://mybinder.org/), [Google Colab](https://colab.research.google.com/) or [NetLogo Web](https://netlogoweb.org/). All of them allow a person to execute the code in the cloud and therefore significantly simplify the process sharing and collaboration.
+If you want to share the results of your computational research, there is no need to install Anaconda Distribution or NetLogo anymore. Instead, you can use such instruments as [Binder Project](https://mybinder.org/), [Google Colab](https://colab.research.google.com/) or [NetLogo Web](https://netlogoweb.org/). All of them allow a person to execute the code in the cloud and therefore significantly simplify the processes of sharing and collaboration.
 
-‌We linked all these 3 components into a system and supervised them with tools and practices. They are distributed across 3 workshops and can be found in the directories with corresponding names. By following the workshops in a sequential manner, you will ensure that your research a\). reproducible, b\). more easily understandable, c\). accessible to others.
+‌We linked all these 3 components into a system and distributed them across 3 workshops that can be found in the directories with corresponding names. By following the workshops in a sequential manner, you will ensure that your research a\). more easily understandable, b\). reproducible, c\). accessible to others.
 
 <!-- ```text
 ├── 1-reproducible
@@ -50,7 +50,7 @@ If you want to share the results of your computational research, there may be no
 │   ├── 3.3-aws-s3.md                 <- Store your large data set on AWS servers
 ``` -->
 
-To get the maximum of the project we invite you to come and participate in the hands-on exercises. But if didn't work, get hands dirty with tutorials by yourself 💪. We tried to make them as clear possible so they can serve as cheat sheets as well. Forgot something: just open the book and follow the instructions.
+To get the maximum of the project we invite you to come and participate in the hands-on exercises. But if didn't work, get hands dirty with tutorials by yourself 💪. We tried to make them as straight forward as possible so they can serve as cheat sheets as well. Forgot something? Just open this documentation and follow the instructions.
 
 <!-- ## To be prepared
 
@@ -66,9 +66,9 @@ That's it! All set now.
 
 ## Contributing & authors
 
-We're highly interested in your opinion on the project! To contribute please, either fork it and submit a pull request, or contact us via Twitter or email.
+We're highly interested in your opinion and contributions to the project! To contribute please, either fork it and submit a pull request, or contact us via Twitter.
 
-_Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Nicolas Dintzner_ [@NJRDintzner](https://twitter.com/njrdintzner), _Jason R. Wang_ [@jasonrwang](https://twitter.com/jasonrwang), _Trivik Verma_ [@TrivikV](https://twitter.com/TrivikV).
+_Mikhail Sirenko_ [@mikhailsirenko](https://twitter.com/mikhailsirenko), _Nicolas Dintzner_ [@NJRDintzner](https://twitter.com/njrdintzner), _Jason R. Wang_ [@jasonrwang](https://twitter.com/jasonrwang), _Trivik Verma_ [@TrivikV](https://twitter.com/TrivikV), _Patrick Steinmann_ [@steipatr](https://twitter.com/steipatr).
 
 ## License
 
