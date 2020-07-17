@@ -1,0 +1,46 @@
+# Project information
+site_name: REDCAR
+site_url: 
+site_author: Mikhail Sirenko.
+site_description: >- 
+  REproDucible ComputAtional Research or simply REDCAR 
+  is a project that aims  to help students and researchers to make their computational results 
+  more easily understandable, reproducible, and accessible to others
+
+# Repository
+repo_name: BROSE-Uninc/REDCAR 
+repo_url: https://github.com/BROSE-Uninc/REDCAR
+
+# Copyright
+copyright: Copyright & copy; 2019 - 2020 Mikhail Sirenko.
+
+theme: 
+  # 404 page
+  static_templates:
+    - 404.html
+  name: material
+  features:
+    - tabs
+  favicon: img/favicon.ico
+#   logo: img/logo.png
+
+markdown_extensions:
+  - admonition
+
+nav:
+  - Starting page: index.md
+  - Understandable: 
+    - 'Introduction': 'understandable/README.md'
+    - 'Workflows': 'understandable/workflows.md'
+    - 'Better code': 'understandable/better-code.md'
+    - 'Case study': 'understandable/case-study.md'
+  - Reproducible:
+      - 'Introduction': 'reproducible/README.md'
+      - 'Getting started with Anaconda': 'reproducible/getting-started-anaconda.md'
+      - 'Getting started with Git': 'reproducible/getting-started-git.md'
+      - 'Git extension for JupyterLab': 'reproducible/git-extension-jupyterlab.md'
+      - 'Jupyter Notebook in Visual Studio Code': 'reproducible/vscode-jupyter-notebook.md'
+  - Shared:
+      - 'Introduction': 'shared/README.md'
+      - 'MyBinder': 'shared/mybinder.md'
+      - 'Google Colab': 'shared/colab.md'
