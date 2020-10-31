@@ -1,18 +1,18 @@
 # Project information
 site_name: REDCAR
 site_url: 
-site_author: Mikhail Sirenko.
+site_author: Mikhail Sirenko, Jason Wang, Nicolas Dintzner, Trivik Verma, Kevin Su, Patrick Steinmann
 site_description: >- 
   REproDucible ComputAtional Research or simply REDCAR 
-  is a project that aims  to help students and researchers to make their computational results 
-  more easily understandable, reproducible, and accessible to others
+  is a project that aims to help students and researchers to make their computational results 
+  more easily understandable, reproducible, and accessible to others.
 
 # Repository
 repo_name: BROSE-Uninc/REDCAR 
 repo_url: https://github.com/BROSE-Uninc/REDCAR
 
 # Copyright
-copyright: Copyright & copy; 2019 - 2020 Mikhail Sirenko.
+copyright: Copyright & copy; 2019 - 2020 Mikhail Sirenko, Jason Wang, Nicolas Dintzner, Trivik Verma, Kevin Su, Patrick Steinmann
 
 theme: 
   # 404 page
