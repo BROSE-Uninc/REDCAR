@@ -23,7 +23,7 @@ If you got lost during the workshop, [here](https://swcarpentry.github.io/git-no
 The commands in these tutorials will utilize the command prompt because of its incredible flexibility and usability. We will also introduce visual interfaces to do the same actions later.
 
 {% hint style="warning" %}
-🧠 **Note:** If you have Windows operation system, we will continue in Git Bash. On macOS and Ubuntu in Terminal.
+🧠 **Note:** If you are using the Windows operation system, the following instructions assume you are using Git Bash. On macOS and Ubuntu, we will use Terminal.
 {% endhint %}
 
 ## Finishing Git setup
